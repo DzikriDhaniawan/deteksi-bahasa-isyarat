@@ -43,7 +43,7 @@ while True:
 
             cv2.rectangle(image_bgr, (x_min, y_min), (x_max, y_max), (0, 255, 0), 2)
 
-    cv2.imshow("Hand Gesture Recognition", image_bgr)
+    cv2.imshow("Deteksi Bahasa Isyarat", image_bgr)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         close_window()
