@@ -3,7 +3,7 @@ import os
 
 camera = cv2.VideoCapture(0)
 
-current_letter = 'M'
+current_letter = 'A'
 save_dir = f"dataset/{current_letter}"
 
 if not os.path.exists(save_dir):
